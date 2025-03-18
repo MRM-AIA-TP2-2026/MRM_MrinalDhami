@@ -1,0 +1,10 @@
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/uninstall.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/chatroom_uninstall.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/Communication.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/test.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/edit_cache.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/rebuild_cache.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/list_install_components.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/install.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/install/local.dir
+/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom/CMakeFiles/install/strip.dir

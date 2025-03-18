@@ -1,0 +1,60 @@
+[0.007s] Invoking command in '/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cobaltcheese/Desktop/MRM/chatroom/src/chatroom -DCMAKE_INSTALL_PREFIX=/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.507s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.530s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.537s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.578s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.681s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.719s] -- Looking for pthread.h
+[0.794s] -- Looking for pthread.h - found
+[0.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.878s] -- Found Threads: TRUE  
+[0.963s] -- Configuring done
+[0.968s] -- Generating done
+[0.970s] -- Build files have been written to: /home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom
+[0.976s] Invoked command in '/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cobaltcheese/Desktop/MRM/chatroom/src/chatroom -DCMAKE_INSTALL_PREFIX=/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom
+[0.976s] Invoking command in '/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom -- -j12 -l12
+[1.025s] [ 50%] [32mBuilding CXX object CMakeFiles/Communication.dir/src/Communication.cpp.o[0m
+[6.127s] [100%] [32m[1mLinking CXX executable Communication[0m
+[6.382s] [100%] Built target Communication
+[6.394s] Invoked command in '/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom -- -j12 -l12
+[6.407s] Invoking command in '/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom
+[6.416s] -- Install configuration: ""
+[6.416s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/lib/chatroom/Communication
+[6.417s] -- Set runtime path of "/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/lib/chatroom/Communication" to ""
+[6.417s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/ament_index/resource_index/package_run_dependencies/chatroom
+[6.417s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/ament_index/resource_index/parent_prefix_path/chatroom
+[6.417s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/ament_prefix_path.sh
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/ament_prefix_path.dsv
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/path.sh
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/path.dsv
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.bash
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.sh
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.zsh
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.dsv
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/package.dsv
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/ament_index/resource_index/packages/chatroom
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/cmake/chatroomConfig.cmake
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/cmake/chatroomConfig-version.cmake
+[6.418s] -- Installing: /home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/package.xml
+[6.419s] Invoked command in '/home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/chatroom/build/chatroom

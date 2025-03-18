@@ -1,0 +1,16 @@
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/lib/chatroom/Communication
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/ament_index/resource_index/package_run_dependencies/chatroom
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/ament_index/resource_index/parent_prefix_path/chatroom
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/ament_prefix_path.sh
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/ament_prefix_path.dsv
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/path.sh
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/environment/path.dsv
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.bash
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.sh
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.zsh
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/local_setup.dsv
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/package.dsv
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/ament_index/resource_index/packages/chatroom
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/cmake/chatroomConfig.cmake
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/cmake/chatroomConfig-version.cmake
+/home/cobaltcheese/Desktop/MRM/chatroom/install/chatroom/share/chatroom/package.xml
