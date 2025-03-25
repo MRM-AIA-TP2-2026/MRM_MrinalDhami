@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot name="rover1">
+    <material name="blue">
+        <color rgba="0.5843 0.8157 0.9882 0.6" />
+    </material>
+
+    <material name="almst_blck">
+        <color rgba="0.9 0.9 0.9" />
+    </material>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.6 0.4 0.2" />
+            </geometry>
+            <material name="blue" />
+            <origin xyz="0 0 0.1" rpy="0 0 0" />
+        </visual>
+    </link>
+
+    <link name="base_footprint" />
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="base_footprint" />
+        <origin xyz="0 0 -0.1" rpy="0 0 0" />
+    </joint>
+
+    <link name="wheel_1">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0" />
+            <material name="almst_whte" />
+        </visual>
+    </link>
+    <joint name="base_wheel1_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_1" />
+        <origin xyz="-0.2 0.225 0.04" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <link name="wheel_2">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0" />
+            <material name="almst_whte" />
+        </visual>
+    </link>
+    <joint name="base_wheel2_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_2" />
+        <origin xyz="-0.2 -0.225 0.04" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <link name="wheel_3">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0" />
+            <material name="almst_whte" />
+        </visual>
+    </link>
+    <joint name="base_wheel3_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_3" />
+        <origin xyz="0.2 0.225 0.04" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <link name="wheel_4">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0" />
+            <material name="almst_whte" />
+        </visual>
+    </link>
+    <joint name="base_wheel4_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_4" />
+        <origin xyz="0.2 -0.225 0.04" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+    </joint>
+</robot>

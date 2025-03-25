@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot -- -j12 -l12
+[0.059s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot -- -j12 -l12
+[0.071s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot
+[0.080s] -- Install configuration: ""
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/launch
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/launch/gazebo.launch.py
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/zed2_camera.xacro
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/mobile_robot.xacro
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/simulate1.world
+[0.081s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/wheels.xacro
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/sensors.xacro
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.081s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.082s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/package.dsv
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.082s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/package.xml
+[0.083s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot

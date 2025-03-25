@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.175s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.183s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.264s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.264s] -- Added test 'lint_cmake' to check CMake code style
+[0.264s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.265s] -- Added test 'xmllint' to check XML markup files
+[0.266s] -- Configuring done
+[0.268s] -- Generating done
+[0.270s] -- Build files have been written to: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot
+[0.273s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot
+[0.275s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot -- -j12 -l12
+[0.317s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot -- -j12 -l12
+[0.327s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot
+[0.337s] -- Install configuration: ""
+[0.338s] -- Execute custom install script
+[0.338s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/launch/gazebo_model.launch.py
+[0.339s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[0.339s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/model/robot.xacro
+[0.339s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.340s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.340s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.340s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.341s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.341s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.341s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.342s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.342s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.342s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.343s] -- Symlinking: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/package.dsv
+[0.355s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.356s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.356s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.356s] -- Up-to-date symlink: /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/install/mobile_robot/share/mobile_robot/package.xml
+[0.358s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot

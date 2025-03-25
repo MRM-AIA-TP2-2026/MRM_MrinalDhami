@@ -1,0 +1,1 @@
+/home/cobaltcheese/Desktop/MRM/Taskfiles/test7/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.sh

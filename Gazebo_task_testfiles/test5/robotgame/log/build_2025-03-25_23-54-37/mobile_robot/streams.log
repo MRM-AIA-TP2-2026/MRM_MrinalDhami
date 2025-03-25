@@ -1,0 +1,141 @@
+[0.011s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.247s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.365s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.539s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.632s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.633s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.635s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.689s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.693s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.702s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.776s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.779s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.875s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.959s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.970s] -- Looking for pthread.h
+[1.060s] -- Looking for pthread.h - found
+[1.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.144s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.146s] -- Found Threads: TRUE  
+[1.209s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.210s] -- Checking for module 'bullet>=2.82'
+[1.226s] --   Found bullet, version 3.05
+[1.347s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.406s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.427s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.460s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.476s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.481s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.489s] -- Searching for dependencies of ignition-math6
+[1.490s] -- Looking for OGRE...
+[1.491s] -- OGRE_PREFIX_WATCH changed.
+[1.497s] -- Checking for module 'OGRE'
+[1.513s] --   Found OGRE, version 1.9.0
+[1.556s] -- Found Ogre Ghadamon (1.9.0)
+[1.563s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.576s] -- Looking for OGRE_Paging...
+[1.582s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.582s] -- Looking for OGRE_Terrain...
+[1.587s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.587s] -- Looking for OGRE_Property...
+[1.592s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.592s] -- Looking for OGRE_RTShaderSystem...
+[1.597s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.597s] -- Looking for OGRE_Volume...
+[1.603s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.603s] -- Looking for OGRE_Overlay...
+[1.608s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.715s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.717s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.718s] -- Searching for dependencies of ignition-transport8
+[1.738s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.749s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.756s] -- Checking for module 'libzmq >= 4'
+[1.772s] --   Found libzmq , version 4.3.4
+[1.815s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.822s] -- Checking for module 'uuid'
+[1.839s] --   Found uuid, version 2.37.2
+[1.879s] -- Found UUID: TRUE  
+[1.882s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.883s] -- Searching for dependencies of ignition-msgs5
+[1.903s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.910s] -- Checking for module 'tinyxml2'
+[1.925s] --   Found tinyxml2, version 9.0.0
+[1.969s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.972s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.972s] -- Searching for dependencies of ignition-common3
+[1.973s] -- Looking for dlfcn.h - found
+[1.974s] -- Looking for libdl - found
+[1.976s] -- Found DL: TRUE  
+[1.994s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.995s] -- Searching for <ignition-common3> component [graphics]
+[1.997s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.997s] -- Searching for dependencies of ignition-common3-graphics
+[1.998s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.000s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.001s] -- Searching for dependencies of ignition-fuel_tools4
+[2.098s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.107s] -- Checking for module 'jsoncpp'
+[2.122s] --   Found jsoncpp, version 1.9.5
+[2.165s] -- Found JSONCPP: TRUE  
+[2.172s] -- Checking for module 'libzip'
+[2.187s] --   Found libzip, version 1.7.3
+[2.224s] -- Found ZIP: TRUE  
+[2.224s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.225s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.225s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.228s] -- Gazebo version: 11.10
+[2.229s] -- Checking for module 'tbb'
+[2.249s] --   Found tbb, version 2021.5.0
+[2.293s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.381s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.382s] -- Added test 'lint_cmake' to check CMake code style
+[2.382s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.384s] -- Added test 'xmllint' to check XML markup files
+[2.385s] -- Configuring done
+[2.389s] -- Generating done
+[2.393s] -- Build files have been written to: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot
+[2.405s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot
+[2.408s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot -- -j12 -l12
+[2.463s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot -- -j12 -l12
+[2.474s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot
+[2.483s] -- Install configuration: ""
+[2.483s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/launch
+[2.483s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/launch/gazebo.launch.py
+[2.483s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model
+[2.483s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[2.483s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/zed2_camera.xacro
+[2.483s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/mobile_robot.xacro
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/simulate1.world
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/wheels.xacro
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/model/sensors.xacro
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/path.sh
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.bash
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.sh
+[2.484s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[2.485s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[2.485s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/package.dsv
+[2.485s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[2.485s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[2.485s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[2.485s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot/share/mobile_robot/package.xml
+[2.487s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/build/mobile_robot
