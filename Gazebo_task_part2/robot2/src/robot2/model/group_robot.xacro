@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<robot name="group_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include External Xacro Files -->
+  <xacro:include filename="wheels.xacro"/>
+  <xacro:include filename="sensors.xacro"/>
+  <xacro:include filename="zed2_camera.xacro"/>
+  <xacro:include filename="robot1.gazebo"/>
+  
+  
+  
+  
+  <link name="world">
+  </link>
+   
+    <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.5 0.3 0.2"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.5 0.3 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5.0"/>
+      <inertia ixx="0.2" ixy="0.0" ixz="0.0" 
+               iyy="0.4" iyz="0.0" 
+               izz="0.5"/>
+    </inertial>
+  </link>
+  
+  <joint name="base_joint" type="fixed">
+      <parent link="world"/>
+      <child link="base_link"/>
+      <origin xyz="0.1 0.0 0.125"/>
+    </joint>
+
+
+  <!-- Add Wheels with Joints -->
+  <xacro:wheels/>
+
+  <!-- Add Sensors -->
+  <xacro:sensors/>
+
+  <!-- Add ZED2 Camera -->
+  <xacro:zed2_camera/>
+  
+</robot>
+
+

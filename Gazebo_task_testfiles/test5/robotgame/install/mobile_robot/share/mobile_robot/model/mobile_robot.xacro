@@ -51,8 +51,8 @@
 
   <xacro:wheels/>
   
-  <!--<xacro:sensors/>
+  <xacro:sensors/>
 
-  <xacro:zed2_camera/>-->
+  <!--<xacro:zed2_camera/>-->
 </robot>
 

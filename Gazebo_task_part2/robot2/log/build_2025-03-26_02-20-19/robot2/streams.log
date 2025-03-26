@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2 -- -j12 -l12
+[0.041s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2 -- -j12 -l12
+[0.055s] Invoking command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2
+[0.063s] -- Install configuration: ""
+[0.063s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/launch
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/launch/gazebo.launch.py
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/model
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/model/robot1.gazebo
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/model/zed2_camera.xacro
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/model/wheels.xacro
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/model/sensors.xacro
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/model/group_robot.xacro
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/ament_index/resource_index/package_run_dependencies/robot2
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/ament_index/resource_index/parent_prefix_path/robot2
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/environment/path.sh
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/environment/path.dsv
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/local_setup.bash
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/local_setup.sh
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/local_setup.zsh
+[0.064s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/local_setup.dsv
+[0.065s] -- Installing: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/package.dsv
+[0.065s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/ament_index/resource_index/packages/robot2
+[0.065s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/cmake/robot2Config.cmake
+[0.065s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/cmake/robot2Config-version.cmake
+[0.065s] -- Up-to-date: /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/install/robot2/share/robot2/package.xml
+[0.066s] Invoked command in '/home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_part2/robot2/build/robot2

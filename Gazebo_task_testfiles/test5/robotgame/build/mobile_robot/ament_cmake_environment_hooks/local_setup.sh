@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/cobaltcheese/Desktop/MRM/Taskfiles/test5/robotgame/install/mobile_robot"}
+: ${AMENT_CURRENT_PREFIX:="/home/cobaltcheese/Desktop/MRM/Taskfiles/Gazebo_task_testfiles/test5/robotgame/install/mobile_robot"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \
