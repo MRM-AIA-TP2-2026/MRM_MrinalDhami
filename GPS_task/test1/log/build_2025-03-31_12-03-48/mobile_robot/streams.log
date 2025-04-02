@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test1/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test1/build/mobile_robot -- -j12 -l12
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Configuring incomplete, errors occurred!
+[0.113s] See also "/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test1/build/mobile_robot/CMakeFiles/CMakeOutput.log".
+[0.113s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.114s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.114s]   before
+[0.114s] Call Stack (most recent call first):
+[0.114s]   CMakeLists.txt:17 (ament_target_dependencies)
+[0.114s] 
+[0.114s] [0m
+[0.115s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.117s] Invoked command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test1/build/mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test1/build/mobile_robot -- -j12 -l12

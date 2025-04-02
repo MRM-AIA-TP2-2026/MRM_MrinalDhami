@@ -1,0 +1,10 @@
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:[m[K In constructor ‘[01m[KAutonomousTraversal::AutonomousTraversal(double, double)[m[K’:
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:53:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KAutonomousTraversal::target_lon_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   53 |     double [01;35m[Ktarget_lon_[m[K;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:49:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AutonomousTraversal::gps_received_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   49 |     bool [01;35m[Kgps_received_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:27:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   27 |     [01;35m[KAutonomousTraversal[m[K(double target_lat, double target_lon)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K

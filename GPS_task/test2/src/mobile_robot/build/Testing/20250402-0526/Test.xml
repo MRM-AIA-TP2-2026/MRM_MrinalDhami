@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250402-0526-Experimental"
+	Name="Galle-ki-dukan"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="Galle-ki-dukan"
+	OSRelease="6.5.0-14-generic"
+	OSVersion="#14~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov 20 18:15:30 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="3905"
+	TotalPhysicalMemory="15688"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2515.71"
+	>
+	<Testing>
+		<StartDateTime>Apr 02 16:29 IST</StartDateTime>
+		<StartTestTime>1743591584</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 02 16:29 IST</EndDateTime>
+		<EndTestTime>1743591584</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

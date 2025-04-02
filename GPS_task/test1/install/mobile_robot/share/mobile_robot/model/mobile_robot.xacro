@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot name="mobile_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find mobile_robot)/model/wheels.xacro"/>
+  <xacro:include filename="$(find mobile_robot)/model/sensors.xacro"/>
+  <xacro:include filename="$(find mobile_robot)/model/zed2_camera.xacro"/>
+
+  <xacro:property name="body_length" value="1"/>  
+  <xacro:property name="body_width" value="0.6"/>  
+  <xacro:property name="body_height" value="0.3"/>
+
+  <xacro:property name="body_density" value="2710.0"/>
+
+  <xacro:property name="body_mass" value="${body_density * body_length * body_width * body_height}"/>
+
+   <xacro:include filename="$(find mobile_robot)/model/robot.gazebo"/>
+   
+   <link name="dummy"></link>
+
+   <joint name="dummy_joint" type="fixed">
+   	<parent link="dummy"/>
+   	<child link="base_link"/>	
+   </joint>
+
+   <link name="base_link">
+   	<visual>
+   	<origin xyz="0 0 0" rpy="0 0 0"/>
+   	<geometry>
+   		<box size="${body_length} ${body_width} ${body_height}"/>
+   	</geometry>
+    	</visual>
+    
+    <collision>
+      <geometry>
+        <box size="${body_length} ${body_width} ${body_height}"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+    
+    <inertial>
+      <mass value="${body_mass}"/>
+      <inertia ixx="${(1.0/12.0) * body_mass * (body_width * body_width + body_height * body_height)}" 
+               ixy="0.0" 
+               ixz="0.0" 
+               iyy="${(1.0/12.0) * body_mass * (body_length * body_length + body_height * body_height)}" 
+               iyz="0.0" 
+               izz="${(1.0/12.0) * body_mass * (body_length * body_length + body_width * body_width)}"/>
+    </inertial>
+  </link>
+    
+
+  <xacro:wheels/>
+  
+  <xacro:sensors/>
+
+  <!--<xacro:zed2_camera/>-->
+</robot>
+
