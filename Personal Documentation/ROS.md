@@ -42,3 +42,11 @@ But what if I rotate it to face the point, then move the distance equivalent to 
     
     We 
     
+
+### Part 3 making the robot follow on the gps coordinate using haversine formula
+
+
+#### Debugging 3 Making the rover move in the right direction, currently when it moves, it moves in the opposite of the direction. Soo I have to change that
+
+
+It seems that  my

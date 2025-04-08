@@ -1,32 +1,32 @@
 <?xml version = "1.0"?>
 <robot>
   <gazebo reference="base_link">
-  <mu1>0.2</mu1>
-  <mu2>0.2</mu2>
+  <mu1>0.3</mu1>
+  <mu2>0.3</mu2>
   <material>Gazebo/Blue</material>
   </gazebo>
 
   <gazebo reference="wheel_fl">
-  <mu1>0.2</mu1>
-  <mu2>0.2</mu2>
+  <mu1>0.3</mu1>
+  <mu2>0.3</mu2>
   <material>Gazebo/White</material>
   </gazebo>
 
   <gazebo reference="wheel_fr">
-  <mu1>0.2</mu1>
-  <mu2>0.2</mu2>
+  <mu1>0.3</mu1>
+  <mu2>0.3</mu2>
   <material>Gazebo/White</material>
   </gazebo>
   
   <gazebo reference="wheel_rl">
-  <mu1>0.2</mu1>
-  <mu2>0.2</mu2>
+  <mu1>0.3</mu1>
+  <mu2>0.3</mu2>
   <material>Gazebo/White</material>
   </gazebo>
 
   <gazebo reference="wheel_rr">
-  <mu1>0.2</mu1>
-  <mu2>0.2</mu2>
+  <mu1>0.3</mu1>
+  <mu2>0.3</mu2>
   <material>Gazebo/White</material>
   </gazebo>
   
@@ -86,7 +86,7 @@
 <!--  ############# Here is Zed2 Sensor##############-->
     
     <gazebo reference="zed2_link">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Yellow</material>
         <sensor name="zed2_stereo_camera" type="camera">
         <update_rate>30</update_rate>
         <camera>
@@ -166,11 +166,16 @@
         <material>Gazebo/Blue</material>
         <sensor name="gps_sensor" type="gps">
   <always_on>true</always_on>
-  <update_rate>10</update_rate>
+  <update_rate>12</update_rate>
   <plugin filename="libgazebo_ros_gps_sensor.so" name="gps_plugin">
     <ros>
       <argument>--ros-args --remap ~/fix:=/gps</argument>
     </ros>
+
+    <referenceHeading>0</referenceHeading>
+    <referenceLatitude>0.00000000</referenceLatitude>
+    <referenceLongitude>0.0000000</referenceLongitude>
+
   </plugin>
  </sensor>
  </gazebo>

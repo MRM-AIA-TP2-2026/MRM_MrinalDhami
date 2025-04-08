@@ -24,8 +24,7 @@
 
    <link name="base_link">
    	<visual>
-   	<origin xyz="0 0 0" rpy="0 0 0"/>
-   	<geometry>
+   	<origin xyz="0 0 0" rpy="0 0 0"/>   	<geometry>
    		<box size="${body_length} ${body_width} ${body_height}"/>
    	</geometry>
     	</visual>
@@ -52,6 +51,8 @@
   <xacro:wheels/>
   
   <xacro:sensors/>
+
+  <xacro:zed2_camera/>
 
   <!--<xacro:zed2_camera/>-->
 </robot>

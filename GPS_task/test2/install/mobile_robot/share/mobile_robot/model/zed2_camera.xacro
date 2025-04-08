@@ -10,8 +10,8 @@
         <geometry>
           <box size="0.15 0.05 0.03"/>
         </geometry>
-        <material name="blue">
-          <color rgba="0.0 0.0 1.0 1.0"/>
+        <material name="Yellow">
+          <color rgba="1.0 1.0 0.0 0.7"/>
         </material>
       </visual>
       <collision>
@@ -31,7 +31,7 @@
     <joint name="zed2_joint" type="fixed">
       <parent link="base_link"/>
       <child link="zed2_link"/>
-      <origin xyz="0.2 0 0.3" rpy="0 0 0"/>  <!-- Adjusted height -->
+      <origin xyz="0.2 0 ${0.15+0.015}" rpy="0 0 1.5708"/>  <!-- Adjusted height -->
     </joint>
 
     <!-- ZED2 Camera Plugin -->

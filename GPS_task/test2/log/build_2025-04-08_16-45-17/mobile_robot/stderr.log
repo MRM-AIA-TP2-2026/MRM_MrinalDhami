@@ -1,0 +1,7 @@
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:[m[K In member function ‘[01m[Kvoid AutonomousTraversal::gps_callback(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:142:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  142 |             double [01;35m[Kx[m[K = target_lon_ ;
+      |                    [01;35m[K^[m[K
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:143:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  143 |             double [01;35m[Ky[m[K = target_lat_ ;
+      |                    [01;35m[K^[m[K

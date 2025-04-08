@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.000150] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.004954] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'cmake'}
+[0.005339] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'build'}
+[0.005771] (mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/build/mobile_robot', '--', '-j12', '-l12'], 'cwd': '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/build/mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nalla-turing'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nalla-turing'), ('OLDPWD', '/home/nalla-turing'), ('DESKTOP_SESSION', 'cinnamon'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nalla-turing'), ('DESKTOP_AUTOSTART_ID', '1055b3bc6ad77ec66c174377489995448600000012420041'), ('_', '/home/nalla-turing/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nalla-turing/.local/bin:/home/nalla-turing/Desktop/Applications/VScode:/home/nalla-turing/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Galle-ki-dukan:@/tmp/.ICE-unix/1242,unix/Galle-ki-dukan:/tmp/.ICE-unix/1242'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f529666_91ee_4ce8_a2fa_1f93dfaa0c27'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/nalla-turing/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalla-turing'), ('AMENT_PREFIX_PATH', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/build/mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/cinnamon:/usr/share/gnome:/home/nalla-turing/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.038520] (mobile_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_to_gps\x1b[0m\n'}
+[0.049897] (mobile_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_to_gps.dir/src/imu_to_gps.cpp.o\x1b[0m\n'}
+[0.099437] (-) TimerEvent: {}
+[0.199669] (-) TimerEvent: {}
+[0.299935] (-) TimerEvent: {}
+[0.400192] (-) TimerEvent: {}
+[0.500461] (-) TimerEvent: {}
+[0.600729] (-) TimerEvent: {}
+[0.700997] (-) TimerEvent: {}
+[0.801268] (-) TimerEvent: {}
+[0.901544] (-) TimerEvent: {}
+[1.001823] (-) TimerEvent: {}
+[1.102085] (-) TimerEvent: {}
+[1.202347] (-) TimerEvent: {}
+[1.302612] (-) TimerEvent: {}
+[1.402881] (-) TimerEvent: {}
+[1.503144] (-) TimerEvent: {}
+[1.603525] (-) TimerEvent: {}
+[1.703949] (-) TimerEvent: {}
+[1.804283] (-) TimerEvent: {}
+[1.904621] (-) TimerEvent: {}
+[2.004955] (-) TimerEvent: {}
+[2.105315] (-) TimerEvent: {}
+[2.205647] (-) TimerEvent: {}
+[2.305987] (-) TimerEvent: {}
+[2.406339] (-) TimerEvent: {}
+[2.506682] (-) TimerEvent: {}
+[2.607027] (-) TimerEvent: {}
+[2.707366] (-) TimerEvent: {}
+[2.807626] (-) TimerEvent: {}
+[2.907959] (-) TimerEvent: {}
+[3.008300] (-) TimerEvent: {}
+[3.108631] (-) TimerEvent: {}
+[3.208971] (-) TimerEvent: {}
+[3.309305] (-) TimerEvent: {}
+[3.409630] (-) TimerEvent: {}
+[3.509976] (-) TimerEvent: {}
+[3.610299] (-) TimerEvent: {}
+[3.710633] (-) TimerEvent: {}
+[3.810975] (-) TimerEvent: {}
+[3.911327] (-) TimerEvent: {}
+[4.011599] (-) TimerEvent: {}
+[4.111926] (-) TimerEvent: {}
+[4.212261] (-) TimerEvent: {}
+[4.312589] (-) TimerEvent: {}
+[4.412910] (-) TimerEvent: {}
+[4.513120] (-) TimerEvent: {}
+[4.613447] (-) TimerEvent: {}
+[4.713769] (-) TimerEvent: {}
+[4.814107] (-) TimerEvent: {}
+[4.914432] (-) TimerEvent: {}
+[5.014757] (-) TimerEvent: {}
+[5.115075] (-) TimerEvent: {}
+[5.215403] (-) TimerEvent: {}
+[5.315719] (-) TimerEvent: {}
+[5.416032] (-) TimerEvent: {}
+[5.516347] (-) TimerEvent: {}
+[5.616666] (-) TimerEvent: {}
+[5.716994] (-) TimerEvent: {}
+[5.817325] (-) TimerEvent: {}
+[5.917655] (-) TimerEvent: {}
+[6.018016] (-) TimerEvent: {}
+[6.118342] (-) TimerEvent: {}
+[6.218660] (-) TimerEvent: {}
+[6.318987] (-) TimerEvent: {}
+[6.419245] (-) TimerEvent: {}
+[6.519662] (-) TimerEvent: {}
+[6.620062] (-) TimerEvent: {}
+[6.720517] (-) TimerEvent: {}
+[6.820921] (-) TimerEvent: {}
+[6.921251] (-) TimerEvent: {}
+[7.021720] (-) TimerEvent: {}
+[7.119495] (mobile_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_to_gps\x1b[0m\n'}
+[7.121936] (-) TimerEvent: {}
+[7.222357] (-) TimerEvent: {}
+[7.322783] (-) TimerEvent: {}
+[7.423224] (-) TimerEvent: {}
+[7.508323] (mobile_robot) StdoutLine: {'line': b'[100%] Built target imu_to_gps\n'}
+[7.516237] (mobile_robot) CommandEnded: {'returncode': 0}
+[7.516622] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'install'}
+[7.521355] (mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/build/mobile_robot'], 'cwd': '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/build/mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nalla-turing'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nalla-turing'), ('OLDPWD', '/home/nalla-turing'), ('DESKTOP_SESSION', 'cinnamon'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nalla-turing'), ('DESKTOP_AUTOSTART_ID', '1055b3bc6ad77ec66c174377489995448600000012420041'), ('_', '/home/nalla-turing/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nalla-turing/.local/bin:/home/nalla-turing/Desktop/Applications/VScode:/home/nalla-turing/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Galle-ki-dukan:@/tmp/.ICE-unix/1242,unix/Galle-ki-dukan:/tmp/.ICE-unix/1242'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1f529666_91ee_4ce8_a2fa_1f93dfaa0c27'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/nalla-turing/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalla-turing'), ('AMENT_PREFIX_PATH', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/build/mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/cinnamon:/usr/share/gnome:/home/nalla-turing/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot:/opt/ros/humble')]), 'shell': False}
+[7.523319] (-) TimerEvent: {}
+[7.526930] (mobile_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.527181] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/launch\n'}
+[7.527274] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/launch/gazebo.launch.py\n'}
+[7.527358] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model\n'}
+[7.527437] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model/simulate1.world\n'}
+[7.527516] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model/wheels.xacro\n'}
+[7.527593] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model/robot.gazebo\n'}
+[7.527670] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model/mobile_robot.xacro\n'}
+[7.527747] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model/sensors.xacro\n'}
+[7.527823] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/model/zed2_camera.xacro\n'}
+[7.527900] (mobile_robot) StdoutLine: {'line': b'-- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/lib/mobile_robot/imu_to_gps\n'}
+[7.530589] (mobile_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/lib/mobile_robot/imu_to_gps" to ""\n'}
+[7.530768] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot\n'}
+[7.530941] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot\n'}
+[7.531050] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh\n'}
+[7.531133] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv\n'}
+[7.531213] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/environment/path.sh\n'}
+[7.531289] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/environment/path.dsv\n'}
+[7.531365] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/local_setup.bash\n'}
+[7.531446] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/local_setup.sh\n'}
+[7.531535] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/local_setup.zsh\n'}
+[7.531609] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/local_setup.dsv\n'}
+[7.532011] (mobile_robot) StdoutLine: {'line': b'-- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/package.dsv\n'}
+[7.532190] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot\n'}
+[7.532512] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake\n'}
+[7.532547] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake\n'}
+[7.532579] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/install/mobile_robot/share/mobile_robot/package.xml\n'}
+[7.532771] (mobile_robot) CommandEnded: {'returncode': 0}
+[7.545127] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 0}
+[7.545587] (-) EventReactorShutdown: {}

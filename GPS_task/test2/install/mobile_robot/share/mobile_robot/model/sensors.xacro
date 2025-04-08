@@ -72,7 +72,7 @@
     <joint name="gps_joint" type="fixed">
       <parent link="pole_link"/>
       <child link="gps_link"/>
-      <origin xyz="0.0 0.0 ${0.2+0.025}"/>
+      <origin xyz="0.0 0.0 ${0.2+0.025}" rpy="0 0 3.14159"/>
     </joint> 
     
 

@@ -1,0 +1,652 @@
+[0.093s] DEBUG:colcon:Command line arguments: ['/home/nalla-turing/.local/bin/colcon', 'build']
+[0.093s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f40263dae00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f40263da8f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f40263da8f0>>)
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nalla-turing/Desktop/MRM/Taskfiles'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(CPP_Course) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(Documentations tasks) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/build) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/build) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/build) ignored
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/install) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/install) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/install) ignored
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/log) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/log) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/log) ignored
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test1/src/mobile_robot) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'GPS_task/test1/src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/log) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/log) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(GPS_task/test2/src/mobile_robot) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'GPS_task/test2/src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/build) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/build) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_part2/robot2/src/robot2) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'Gazebo_task_part2/robot2/src/robot2' with type 'ros.ament_cmake' and name 'robot2'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/install) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/install) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/install) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/mobileTesting) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/build) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/build) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/build) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/install) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/install) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/log) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/log) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/log) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test1/urdf_example) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test2) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/build) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/build) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'Gazebo_task_testfiles/test3/gazebo_wkspc/src/gazebo_test' with type 'ros.ament_cmake' and name 'gazebo_test'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/install) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/install) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/log) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test3/gazebo_wkspc/src/log) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/build) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/build) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/log) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/log) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/robotgame/src/mobile_robot) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'Gazebo_task_testfiles/test5/robotgame/src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test5/src) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/build) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/build) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/build) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/install) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/install) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/install) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/log) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/log) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test6/log) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/build) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/build) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/build) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/install) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/install) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/install) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/log) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/log) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/log) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Gazebo_task_testfiles/urdf_example) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Github_task) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(Personal Documentation) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/build) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/build) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/build) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/install) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/install) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/install) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/log) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/log) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/log) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(chatroom/src/chatroom) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'chatroom/src/chatroom' with type 'ros.ament_cmake' and name 'chatroom'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.246s] ERROR:colcon:colcon build: Duplicate package names not supported:
+- mobile_robot:
+  - GPS_task/test1/src/mobile_robot
+  - GPS_task/test2/src/mobile_robot
+  - Gazebo_task_testfiles/test5/robotgame/src/mobile_robot
+  - Gazebo_task_testfiles/test7/ws_mobile/src/mobile_robot

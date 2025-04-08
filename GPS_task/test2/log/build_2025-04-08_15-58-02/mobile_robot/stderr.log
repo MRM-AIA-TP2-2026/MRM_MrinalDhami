@@ -1,0 +1,10 @@
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:226:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool AutonomousTraversal::goal_reached() const[m[K’ is private within this context
+  226 |         while (rclcpp::ok() && ![01;31m[Knode->goal_reached()[m[K) {
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test2/src/mobile_robot/src/imu_to_gps.cpp:198:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+  198 |     bool [01;36m[Kgoal_reached[m[K() const {
+      |          [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/imu_to_gps.dir/build.make:76: CMakeFiles/imu_to_gps.dir/src/imu_to_gps.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_to_gps.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
