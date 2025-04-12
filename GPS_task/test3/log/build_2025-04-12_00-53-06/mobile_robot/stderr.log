@@ -1,0 +1,4 @@
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot/src/imu_to_gps.cpp:[m[K In member function ‘[01m[Kvoid AutonomousTraversal::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot/src/imu_to_gps.cpp:174:25:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  174 |         if ([01;35m[Kdestinaton_ = true[m[K) return;
+      |             [01;35m[K~~~~~~~~~~~~^~~~~~[m[K

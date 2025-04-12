@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target imu_to_gps[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_to_gps.dir/src/imu_to_gps.cpp.o[0m
+[1.500s] [01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot/src/imu_to_gps.cpp:[m[K In constructor ‘[01m[KAutonomousTraversal::AutonomousTraversal(double, double)[m[K’:
+[1.500s] [01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot/src/imu_to_gps.cpp:50:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KAutonomousTraversal::current_lon_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.500s]    50 |     double [01;35m[Kcurrent_lon_[m[K;
+[1.500s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[1.500s] [01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot/src/imu_to_gps.cpp:43:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble AutonomousTraversal::mover[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.500s]    43 |     double [01;35m[Kmover[m[K;
+[1.500s]       |            [01;35m[K^~~~~[m[K
+[1.500s] [01m[K/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot/src/imu_to_gps.cpp:9:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.500s]     9 |     [01;35m[KAutonomousTraversal[m[K(double target_lat, double target_lon)
+[1.500s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.127s] [100%] [32m[1mLinking CXX executable imu_to_gps[0m
+[7.515s] [100%] Built target imu_to_gps
+[7.522s] Invoked command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot -- -j12 -l12
+[7.530s] Invoking command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot
+[7.537s] -- Install configuration: ""
+[7.537s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/launch
+[7.537s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/launch/gazebo.launch.py
+[7.537s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model
+[7.537s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/simulate1.world
+[7.537s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/wheels.xacro
+[7.537s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[7.538s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/mobile_robot.xacro
+[7.538s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/sensors.xacro
+[7.538s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/zed2_camera.xacro
+[7.538s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/lib/mobile_robot/imu_to_gps
+[7.543s] -- Set runtime path of "/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/lib/mobile_robot/imu_to_gps" to ""
+[7.543s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[7.543s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/path.sh
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.bash
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.sh
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[7.544s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[7.544s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/package.dsv
+[7.545s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[7.545s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[7.546s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[7.546s] -- Up-to-date: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/package.xml
+[7.547s] Invoked command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot

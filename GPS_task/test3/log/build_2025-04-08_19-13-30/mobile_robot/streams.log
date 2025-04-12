@@ -1,0 +1,88 @@
+[0.007s] Invoking command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.422s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.529s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.589s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.618s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.623s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.671s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.673s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.728s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.748s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.782s] -- Looking for pthread.h
+[0.851s] -- Looking for pthread.h - found
+[0.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.927s] -- Found Threads: TRUE  
+[0.960s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.968s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.979s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.993s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.999s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.056s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.064s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.065s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.065s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.068s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.117s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.118s] -- Configured cppcheck include dirs: 
+[1.118s] -- Configured cppcheck exclude dirs and/or files: 
+[1.118s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.118s] -- Added test 'lint_cmake' to check CMake code style
+[1.118s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.119s] -- Added test 'uncrustify' to check C / C++ code style
+[1.119s] -- Configured uncrustify additional arguments: 
+[1.119s] -- Added test 'xmllint' to check XML markup files
+[1.120s] -- Configuring done
+[1.127s] -- Generating done
+[1.130s] -- Build files have been written to: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot
+[1.137s] Invoked command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot
+[1.138s] Invoking command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot -- -j12 -l12
+[1.181s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_to_gps.dir/src/imu_to_gps.cpp.o[0m
+[8.417s] [100%] [32m[1mLinking CXX executable imu_to_gps[0m
+[8.841s] [100%] Built target imu_to_gps
+[8.849s] Invoked command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot -- -j12 -l12
+[8.857s] Invoking command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot
+[8.862s] -- Install configuration: ""
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/launch
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/launch/gazebo.launch.py
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/simulate1.world
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/wheels.xacro
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/mobile_robot.xacro
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/sensors.xacro
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/model/zed2_camera.xacro
+[8.862s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/lib/mobile_robot/imu_to_gps
+[8.865s] -- Set runtime path of "/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/lib/mobile_robot/imu_to_gps" to ""
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/path.sh
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.bash
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.sh
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/package.dsv
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[8.866s] -- Installing: /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/install/mobile_robot/share/mobile_robot/package.xml
+[8.868s] Invoked command in '/home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nalla-turing/Desktop/MRM/Taskfiles/GPS_task/test3/build/mobile_robot
